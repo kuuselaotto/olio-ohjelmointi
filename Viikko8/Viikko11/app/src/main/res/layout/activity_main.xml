@@ -6,15 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnMultiply"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:background="#DD2828"
         android:onClick="Multiply"
         android:text="X"
+        android:background="@drawable/bg"
         android:textAlignment="center"
         android:textSize="40sp"
+        android:textColor="@color/black"
+        android:backgroundTint="#03A9F4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.63"
@@ -22,15 +24,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.277" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnDiv"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:background="#DD2828"
         android:onClick="Division"
         android:text="/"
+        android:backgroundTint="#03A9F4"
+        android:background="@drawable/bg"
         android:textAlignment="center"
         android:textSize="40sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.88"
@@ -38,15 +42,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.277" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnDiff"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:background="#DD2828"
         android:onClick="Difference"
         android:text="-"
+        android:backgroundTint="#03A9F4"
+        android:background="@drawable/bg"
         android:textAlignment="center"
         android:textSize="40sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.383"
@@ -93,14 +99,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.151" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSum"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:background="#DD2828"
+        android:background="@drawable/bg"
         android:onClick="Summary"
         android:text="+"
+        android:backgroundTint="#03A9F4"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
