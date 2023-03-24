@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Viikko9</string>
+
+    <string-array name="Images">
+        <item>User</item>
+        <item>Android</item>
+        <item>Smile</item>
+        <item>Cool</item>
+    </string-array>
+</resources>
