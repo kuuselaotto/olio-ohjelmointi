@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Etusivu"
+        android:id="@+id/frontPage"
+        android:icon="@drawable/frontpage"/>
+    <item
+        android:title="Lisää"
+        android:id="@+id/add"
+        android:icon="@drawable/add"/>
+    <item
+        android:title="Listaa"
+        android:id="@+id/list"
+        android:icon="@drawable/list"/>
+</menu>
