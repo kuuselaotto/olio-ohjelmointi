@@ -1,1 +1,0 @@
-Lutemonien listaaminen ja siirtäminen sijoitettu samaan fragmenttiin, jossa lutemonit listataa joko koti, treeni tai taistelukenttä kohdissa ja niitä on mahdollista siirtää samansta näkymästä toiseen sijaintiin. 5 pistettä.
