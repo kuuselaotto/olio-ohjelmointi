@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Koti"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home"/>
+    <item
+        android:title="Harjoittelu"
+        android:icon="@drawable/training"
+        android:id="@+id/training"/>
+    <item
+        android:title="Taistelukenttä"
+        android:icon="@drawable/figth"
+        android:id="@+id/battlefield"/>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/imgLutemonTrainView"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="add"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTrainName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:paddingLeft="10dp"
+            android:text="Nimi"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtTrainAttack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Hyökkäys"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtTrainDefense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Puolustus"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtTrainHealth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Elämä"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtTrainExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:text="Kokemus"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgTrain"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/baseline_health_and_safety_24" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

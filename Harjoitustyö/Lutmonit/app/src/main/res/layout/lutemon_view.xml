@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:srcCompat="@drawable/lutemon_oranssi"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="add"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:paddingLeft="10dp"
+            android:text="Nimi"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtAttack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Hyökkäys"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtDefense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Puolustus"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtHealth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Elämä"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:paddingLeft="10dp"
+            android:text="Kokemus"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotona"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
